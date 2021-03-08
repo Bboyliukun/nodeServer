@@ -1,0 +1,56 @@
+[2021-03-08T16:26:03.831] [INFO] resLogger - {
+  status: 200,
+  message: 'OK',
+  header: [Object: null prototype] {
+    'content-type': 'application/json; charset=utf-8'
+  },
+  body: {
+    code: 100002,
+    msg: '未登录',
+    data: {
+      target_url: 'https://preaccount.meitu.com/#!/login/app?client_id=1189857412&redirect_callback=https%3A%2F%2Fpre-rich.meitu.com&app_login_auto=1'
+    }
+  }
+}
+[2021-03-08T16:27:06.131] [INFO] resLogger - {
+  status: 200,
+  message: 'OK',
+  header: [Object: null prototype] {
+    'content-type': 'application/json; charset=utf-8'
+  },
+  body: {
+    code: 100002,
+    msg: '未登录',
+    data: {
+      target_url: 'https://preaccount.meitu.com/#!/login/app?client_id=1189857412&redirect_callback=https%3A%2F%2Fpre-rich.meitu.com&app_login_auto=1'
+    }
+  }
+}
+[2021-03-08T16:27:48.304] [INFO] resLogger - {
+  status: 200,
+  message: 'OK',
+  header: [Object: null prototype] {
+    'content-type': 'application/json; charset=utf-8'
+  },
+  body: {
+    code: 100002,
+    msg: '未登录',
+    data: {
+      target_url: 'https://preaccount.meitu.com/#!/login/app?client_id=1189857412&redirect_callback=https%3A%2F%2Fpre-rich.meitu.com&app_login_auto=1'
+    }
+  }
+}
+[2021-03-08T16:27:50.234] [INFO] resLogger - {
+  status: 200,
+  message: 'OK',
+  header: [Object: null prototype] {
+    'content-type': 'application/json; charset=utf-8'
+  },
+  body: {
+    code: 100002,
+    msg: '未登录',
+    data: {
+      target_url: 'https://preaccount.meitu.com/#!/login/app?client_id=1189857412&redirect_callback=https%3A%2F%2Fpre-rich.meitu.com&app_login_auto=1'
+    }
+  }
+}

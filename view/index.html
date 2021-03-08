@@ -1,0 +1,54 @@
+<!--
+ * @Author: L ❤ K 
+ * @Email: lk7@mmeitu.com
+ * @Date: 2020-07-30 11:09:48
+ * @LastEditTime: 2020-11-03 15:46:22
+ * @Description: (｡♥‿♥｡)是你改变了编程世界还是你被编程所蹂躏！奋斗吧！骚年！！！
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root"> </div>
+    <button id="btn">提交 test</button>
+    <button id="btn1">获取 get test</button>
+
+    {{text}}
+    {{@svg}}
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../axios-mi.js"></script>
+    <script>
+
+        btn.onclick = () => {
+            let OCRcommitUrl = '/aj/withdraw/apply_test.json' // ocr 提交
+            const OCRcommit = POST(OCRcommitUrl)
+            OCRcommit({
+                loan_amount: 600, // 借款金额
+                period: 6,// 借款期限
+                period_unit: 1, // 借款单位1周2月3年
+            }).then(res => {
+
+            })
+        }
+        btn1.onclick = () => {
+            let OCRcommitUrl = '/aj/withdraw/apply_test.json' // ocr 提交
+            const OCRcommit = GET(OCRcommitUrl)
+            OCRcommit({
+                loan_amount: 600, // 借款金额
+                period: 6,// 借款期限
+                period_unit: 1, // 借款单位1周2月3年
+            }).then(res => {
+
+            })
+        }
+    </script>
+</body>
+
+</html>
